@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Regression Runner">
+    <test name="Spruce Eats Regression">
+        <classes>
+            <class name="com.test.spruceEats.tests.SpruceEatsTest"></class>
+        </classes>
+    </test>
+</suite>

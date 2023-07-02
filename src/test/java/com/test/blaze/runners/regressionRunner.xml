@@ -1,0 +1,27 @@
+<!--Now you are learning how to create a regression suite here-->
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<!--This doc type is telling system that this file will be suite (regression, smoke)-->
+
+<suite name="'Regression Suite">
+
+    <test name="Blaze Tests">
+
+        <classes>
+
+            <class name="com.test.blaze.tests.BlazeMacBookProTest"></class>
+            <class name="com.test.blaze.tests.BlazeOrderTest"></class>
+
+
+        </classes>
+
+    </test>
+
+    <test name="Bank Tests">
+        <classes>
+            <class name="com.test.bank.tests.BankLoginTest"></class>
+            <class name="com.test.bank.tests.BankManagerTest"></class>
+            <class name="com.test.bank.tests.BankCustomerTest"></class>
+        </classes>
+    </test>
+
+</suite>
